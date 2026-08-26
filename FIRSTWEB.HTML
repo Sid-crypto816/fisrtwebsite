@@ -1,0 +1,115 @@
+<html>
+
+<head>
+
+    <style>
+
+        p {
+            color: rgb(0, 0, 0);
+        }
+
+        body {
+            background-image: url("Screenshot 2026-08-09 211245.png");
+        }
+
+
+//---------------------------------------------------------------------------//
+//for textt heading size and color //
+
+.text-area h1 {
+    font-size: 50px;
+}
+
+
+
+
+
+
+
+
+
+text-area { // ab y vohi text area h ispe kam kre h hm
+    position: absolute;
+    left: 80px;   // just decideing shifting of the text area
+    top: 100px;
+text-align: center;
+.button-area
+ {
+    position: absolute; 
+    left: 650px; //. same vohi shifting
+    top: 300px;   // toop shifting
+    .button-area button {      
+    display: block;   puri linee occupied dikhjane k leye
+     margin-bottom: 10px; //  bich ka diffrence 
+     width: 150px;   // sizee change krega y
+     padding: 10px; // increase inner space 
+}
+}
+}
+
+
+.text-area p {
+    font-size: 22px;
+}
+
+
+
+
+
+    </style>
+
+
+    <title>THE FIRST WEBSITE</title>
+
+</head>
+
+
+<body>
+
+    <video width="600" controls>
+        <source src="yuta-okkotsu-inner-demon.960x540.mp4" type="video/mp4">
+    </video>
+
+
+
+
+
+
+
+
+//---------------------------------------------------------------------------//
+<div class="button-area"> // we again used  div here customise button wala part 
+    <button onclick="alert('BANKAI ACTIVATED')">BANKAI</button>
+    <button>just a button</button>
+
+    //JavaScript button //
+    <button onclick="changeText()">FINNALY A WORKING BUTTON</button>
+
+    <p id="demo">TRUE BANKAI ACTIVATED</p>
+
+    <script>
+        function changeText() {
+            document.getElementById("demo").innerHTML = "Bankai!";
+        }
+    </script>
+    </div>  
+//---------------------------------------------------------------------------// 
+
+
+
+
+
+  
+ <div class="text-area"> // classs walla y matter ek name sa milgya isko a b c ya ya kuch bhi ab style m ispe kam krenge
+    <h1>ITS SIDHARTH</h1>
+
+    <p><b>It's my first website!</b></p>
+
+    <p><b>Thanks for coming.</b></p>
+
+    <p><b>Have a nice day!</b></p>
+</div> // this div work as a containers ek sath kam kr skte h ab ispe
+
+</body>  
+
+</html>
